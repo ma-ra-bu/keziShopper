@@ -1,6 +1,9 @@
       var plus = function(v,z) {
-        var rabatt = parseFloat(v.value)/100*parseFloat(z.value);
-        window.alert(String(rabatt)+" = Rabatt\n"+String(parseFloat(v.value)-rabatt)+" = Preis")
+        var betrag = parseFloat(v.value);
+        var rabatt_prozent = parseFloat(z.value);
+        var rabatt = betrag/100*rabatt_prozent;
+        var preis = betrag-rabatt;
+        window.alert(String(rabatt.toFixed(2))+" = Rabatt\n"+String(preis.toFixed(2))+" = Preis")
       };
       var v = document.querySelector('#vname');
       var z = document.querySelector('#zname');
