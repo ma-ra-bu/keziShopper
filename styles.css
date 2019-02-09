@@ -1,11 +1,19 @@
 #vname {
-    width: 45px;
-    hight: 15px;
+    width: 205px;
+    height: 100px;
+    font-size:44px;
 } 
        
 #zname {
-    width: 45px;
-    hight: 15px;
+    width: 100px;
+    height: 100px;
+    font-size:44px;
+} 
+
+#xbutton {
+    width: 100px;
+    height: 100px;
+    font-size:44px;
 } 
        
 body {
